@@ -10,7 +10,7 @@ a {
 
 body {
     background-color:rgb(23, 34, 23);
-    background-image: url("/images/background-image.png");
+    background-image: url("/upload_simulator/images/background-image.png");
 }
 
 body h1,h2,p,li {

@@ -15,6 +15,7 @@ body p {
 body {
     background-color:rgb(23, 34, 23);
     background-image: url("/upload_simulator/images/background-image.png");
+    background-size: cover;
 }
 
 body h1,h2,p,li {

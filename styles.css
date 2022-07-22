@@ -8,6 +8,10 @@ a {
     color: rgb(0, 144, 254);
 }
 
+body p {
+    width: 900px;
+}
+
 body {
     background-color:rgb(23, 34, 23);
     background-image: url("/upload_simulator/images/background-image.png");
@@ -33,8 +37,7 @@ body h1:hover,h2:hover,p:hover,li:hover {
 }
 
 .white {
-    color: white;
-    width: 700px;
+    color: rgb(255, 255, 255);
 }
 
 .indent {

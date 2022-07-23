@@ -76,6 +76,12 @@ body h1:hover,h2:hover,p:hover,li:hover {
     gap: 1em;
 }
 
+.wiki-elements-main-page {
+    justify-content: center;
+    display: flex;
+    gap: 1em;
+}
+
 .wius {
     font-size: 30px;
 }

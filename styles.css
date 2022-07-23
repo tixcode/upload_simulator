@@ -24,7 +24,6 @@ body h1,h2,p,li {
 
 body h1:hover,h2:hover,p:hover,li:hover {
     color: rgb(171, 255, 186);
-    transform: scale(1.1);
 }
 
 .uplsim-text-h1 {

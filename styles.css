@@ -91,6 +91,15 @@ body h1:hover,h2:hover,p:hover,li:hover {
     display: flex;
 }
 
+/* Moves image heights from html files into the CSS to prevent having to repeat width and height every time. 
+Just add/replace (height:"64px" width: "64px") into class = "newImageFix" within the <img> tag.
+*/
+
+.newImageFix {
+    height: 64px;
+    width: 64px;
+}
+
 table, th, td {
     border: 3px solid white;
     padding: 15px;
@@ -99,4 +108,40 @@ table, th, td {
 }
 th {
     width: 300px;
+}
+
+/*
+Allows for fonts, image heights, indents etc to be changed when on smaller screens such as phones. Doesn't affect desktop screen viewing
+*/
+
+
+@media screen and (max-width: 700px) {
+  .border {
+    border-style: solid;
+    border-color: rgb(226, 226, 226);
+    border-radius: 8px;
+    width: 450px;
+    height: 90px;
+  }
+
+  .uplsim-text-h2{
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .newImageFix {
+    height: 50px;
+    width: 50px;
+  }
+
+  .font20px {
+    font-size:15px;
+  }
+
+  .indent{
+    margin-left: 15px;
+  }
+  
 }

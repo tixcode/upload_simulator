@@ -33,6 +33,13 @@ body h1:hover,h2:hover,p:hover,li:hover {
     justify-content: center;
 }
 
+.uplsim-text-h3 {
+    font-size: 2vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 .uplsim-text-h2{
     font-size: 1.3vw;
     align-items: center;

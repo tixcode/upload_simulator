@@ -107,7 +107,10 @@ body h1:hover,h2:hover,p:hover,li:hover {
     font-size: 30px;
 }
 
-
+.imageFix {
+    align-items: center;
+    display: flex;
+}
 
 .newImageFix {
   height: 5vw;

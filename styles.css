@@ -34,9 +34,10 @@ body h1:hover,h2:hover,p:hover,li:hover {
 }
 
 .uplsim-text-h2{
-    font-size: 3vw;
+    font-size: 1.8vw;
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
 
 .white {
@@ -135,6 +136,7 @@ th {
     font-size: 3vw;
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
 
 

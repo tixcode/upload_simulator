@@ -28,14 +28,22 @@ body h1:hover,h2:hover,p:hover,li:hover {
 
 .uplsim-text-h1 {
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
 }
 
-.uplsim-text-h2 {
+.uplsim-text-h3 {
+    font-size: 2vw;
     text-align: center;
-    margin: 0;
 }
+
+.uplsim-text-h2{
+    font-size: 1.3vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
 .white {
     color: rgb(255, 255, 255);
@@ -47,6 +55,13 @@ body h1:hover,h2:hover,p:hover,li:hover {
 
 .padding {
     padding: 30px;
+}
+
+.mainPage{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .font20px {
@@ -61,8 +76,11 @@ body h1:hover,h2:hover,p:hover,li:hover {
     border-style: solid;
     border-color: rgb(226, 226, 226);
     border-radius: 8px;
-    width: 500px;
+    width: 22vw;
     height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .wiki-element {
@@ -73,6 +91,9 @@ body h1:hover,h2:hover,p:hover,li:hover {
 
 .wiki-elements {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 1em;
 }
 
@@ -86,9 +107,11 @@ body h1:hover,h2:hover,p:hover,li:hover {
     font-size: 30px;
 }
 
-.imageFix {
-    align-items: center;
-    display: flex;
+
+
+.newImageFix {
+  height: 5vw;
+  width: 5vw;
 }
 
 table, th, td {
@@ -99,4 +122,45 @@ table, th, td {
 }
 th {
     width: 300px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .border {
+    border-style: solid;
+    border-color: rgb(226, 226, 226);
+    border-radius: 8px;
+    width: 450px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .uplsim-text-h2{
+    font-size: 3vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+  .newImageFix {
+    height: 50px;
+    width: 50px;
+  }
+
+  .font20px {
+    font-size:15px;
+  }
+
+  .uplsim-text-h3 {
+    font-size: 3.4vw;
+    text-align: center;
+}
+
+  .indent{
+    margin-left: 15px;
+  }
+  
 }

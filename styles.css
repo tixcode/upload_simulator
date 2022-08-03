@@ -18,8 +18,19 @@ body h1,h2,p,li {
     transition: ease-out 0.1s;
 }
 
+.center{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 body h1:hover,h2:hover,p:hover,li:hover {
     color: rgb(171, 255, 186);
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 .uplsim-text-h1 {

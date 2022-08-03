@@ -83,6 +83,11 @@ body h1:hover,h2:hover,p:hover,li:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: ease 0.3s;
+}
+
+.wiki-element:hover {
+    transform: translateY(-20px);
 }
 
 .wiki-elements {

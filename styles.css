@@ -26,7 +26,7 @@ body h1,h2,p,li {
     justify-content: center;
 }
 
-body h1:hover,h2:hover,p:hover,li:hover {
+body * {
     color: rgb(171, 255, 186);
     transform: translateY(-5px);
 }

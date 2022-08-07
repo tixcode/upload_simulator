@@ -81,7 +81,19 @@ body h1:hover,h2:hover,p:hover,li:hover {
 
 .border {
     border-style: solid;
-    border-color: rgb(226, 226, 226);
+    border-color: rgb(185, 255, 192);
+    border-radius: 8px;
+    width: 22vw;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notfinishedborder {
+    background-color: rgba(255, 0, 0, 0.2);
+    border-style: solid;
+    border-color: rgb(255, 148, 148);
     border-radius: 8px;
     width: 22vw;
     height: 110px;

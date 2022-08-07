@@ -90,7 +90,7 @@ body h1:hover,h2:hover,p:hover,li:hover {
     justify-content: center;
 }
 
-.notfinishedborder {
+.notFinishedBorder {
     background-color: rgba(255, 0, 0, 0.2);
     border-style: solid;
     border-color: rgb(255, 148, 148);
@@ -100,7 +100,7 @@ body h1:hover,h2:hover,p:hover,li:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} 
 
 .wiki-element {
     display: flex;

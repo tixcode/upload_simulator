@@ -21,7 +21,7 @@ body {
     justify-content: center;
 }
 
-body * {
+body h1,h2,p,a{
     color: rgb(171, 255, 186);
     transform: translateY(-5px);
     transition: ease-out 0.1s;

@@ -104,6 +104,7 @@ body h1,h2,p,a{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .wiki-elements {

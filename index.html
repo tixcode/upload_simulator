@@ -2,34 +2,41 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="/upload_simulator/images/upload_sim_logo.png">
     <title>Upload Simulator - Resources and Wiki</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 </head>
 <body>
     <h1 class="uplsim-text-h1 white"><img width="64" height="64" src="/upload_simulator/images/upload_sim_logo.png">Upload Simulator</h1>
     <h2 class="uplsim-text-h3 white">Wikipedia and Changelog in different languages!</h2>
     <h2 class="uplsim-text-h3 white">This website was made by tixonochek: beta-tester, translator and big fan of the game!</h2>
+
+    <h3 class="uplsim-text-h3 white">
+        <label for="select_lang"></label>
+        <select name="select_lang" id="select_lang">
+            <option value="">Choose language</option>
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <option value="ru">Русский</option>
+        </select>
+    </h3>
     <br>
+
     <div class="wiki-elements-main-page">
         <div class="border">
-            <a class="wiki-element white uplsim-text-h2 imageFix" href="/upload_simulator/wiki/en/"><h2 class="wiki-element white"><img class="newImageFix" src="/upload_simulator/images/wiki_search.png">Wikipedia</h2></h2></a>
+            <a class="wiki-element white uplsim-text-h2 imageFix" id="wikiLink" href="/upload_simulator/wiki/en/"><h2 class="wiki-element white"><img class="newImageFix" src="/upload_simulator/images/wiki_search.png" />Wikipedia</h2></a>
         </div>
-    
-        <div class="border">
-            <a class="wiki-element white uplsim-text-h2 imageFix" href="/upload_simulator/wiki/ru/"><h2 class="wiki-element white"><img class="newImageFix" src="/upload_simulator/images/wiki_search.png">Википедия</h2></h2></a>
-        </div>
+
     </div>
     <br><br>
     <div class="wiki-elements-main-page">
         <div class="border">
-            <a class="wiki-element white uplsim-text-h2 imageFix" href="/upload_simulator/changelog/en/"><h2 class="wiki-element white"><img class="newImageFix" src="/upload_simulator/images/wiki_edit.png">Changelog</h2></h2></a>
+            <a class="wiki-element white uplsim-text-h2 imageFix" id="changelogsLink" href="/upload_simulator/changelog/en/"><h2 class="wiki-element white"><img class="newImageFix" src="/upload_simulator/images/wiki_edit.png" />Changelog</h2></a>
         </div>
-    
-        <div class="border">
-            <a class="wiki-element white uplsim-text-h2 imageFix" href="/upload_simulator/changelog/ru/"><h2 class="wiki-element white"><img class="newImageFix" src="/upload_simulator/images/wiki_edit.png">Список Изменений</h2></h2></a>
-        </div>
+
     </div>
     <div>
         <h2 class="lh0 white indent imageFix"><img class="newImageFix" src="/upload_simulator/images/wiki_user.png">Question/Answer about me:</h2>

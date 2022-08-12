@@ -38,8 +38,8 @@ $( document ).ready(function() {
             default:
                 console.log(`Sorry, we are out of ${expr}.`);
         }
-        wikiLink.html(htmlTextWiki.replace(/>[a-zA-Z]+</, ">"+replacementWikiText+"<"))
-        changelogsLink.html(htmlTextWiki.replace(/>[a-zA-Z]+</, ">"+replacementChangelogText+"<"))
+        wikiLink.html(htmlTextWiki.replace(/>[a-zA-Z\u0401\u0451\u0410-\u044f]+</, ">"+replacementWikiText+"<"))
+        changelogsLink.html(htmlTextWiki.replace(/>[a-zA-Z\u0401\u0451\u0410-\u044f]+</, ">"+replacementChangelogText+"<"))
 
 
     });
